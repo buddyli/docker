@@ -12,4 +12,4 @@ https://docs.docker.com/engine/userguide/dockerrepos/
 ###1. Got 403 forbidden error while run docker login on Windows
 https://github.com/docker/hub-feedback/issues/473
 Specify index registry but not use the default one, then input username, password and email, can login successfully now.
-$: docker login  https://index.docker.io/v1/
+######$: docker login  https://index.docker.io/v1/
