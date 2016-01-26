@@ -17,5 +17,5 @@ https://github.com/docker/hub-feedback/issues/473
 Specify index registry but not use the default one, then input username, password and email, can login successfully now.
 ######$: docker login  https://index.docker.io/v1/
 
-###2. Got "/bin/sh -c *** returned non-zeor code:1" while doing docker build based on Dockerfile
+###2. Got "/bin/sh -c *** returned non-zeor code:1" while building docker images based on Dockerfile
 Run apt-get install with -y option, assume install all packages automatically.
