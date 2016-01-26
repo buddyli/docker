@@ -19,3 +19,7 @@ Specify index registry but not use the default one, then input username, passwor
 
 ###2. Got "/bin/sh -c *** returned non-zeor code:1" while building docker images based on Dockerfile
 Run apt-get install with -y option, assume install all packages automatically.
+
+###3. Got "unauthorized: access to the request resource is not authorized" while push images to private repository by "docker push" on Windows
+Docker didn't use login credentials but trying connect against win registry.
+######Solution: https://github.com/docker/hub-feedback/issues/473
